@@ -1,0 +1,10 @@
+.helpful-resource {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .helpful-resource img {
+    margin-left: 0.5rem;
+  }
