@@ -6,7 +6,7 @@ import './index.css';
 
 function App() {
   return (
-    <div className="app-container">
+    <div>
       <Header />
 
       <Section title="What is React?">
@@ -24,7 +24,7 @@ function App() {
         </ul>
       </Section>
 
-      <Section title="Helpful resources">
+      <Section title="Helpful Resources">
         <HelpfulResource
           link="https://reactjs.org/docs/getting-started.html"
           label="React Documentation"
