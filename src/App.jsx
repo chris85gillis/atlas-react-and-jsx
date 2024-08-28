@@ -4,6 +4,7 @@ import Section from './components/Section';
 import HelpfulResource from './components/HelpfulResource';
 import './index.css';
 import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -43,6 +44,11 @@ function App() {
       <Section>
         <AboutMe />
       </Section>
+
+      <Section>
+        <Footer />
+      </Section>
+      
     </div>
   );
 }
